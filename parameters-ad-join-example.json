@@ -18,7 +18,7 @@
         "value": "adminuser"
       },
       "domainUserName": {
-        "value": "adm.mld"
+        "value": ""
       },
       "tags": {
         "value": {
@@ -42,7 +42,7 @@
         "value": "Windows_Client"
       },
       "domainToJoin": {
-        "value": "technosit.com.br"
+        "value": ""
       },
       "ouPath": {
         "value": "OU=AzureVirtualDesktop,OU=Technosit,DC=technosit,DC=com,DC=br"
