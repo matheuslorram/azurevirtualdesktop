@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "subName": {
+        "value": "sn-technosit-avd"
+      },
+      "hostPoolType": {
+        "value": "Pooled"
+      },
+      "location": {
+        "value": "eastus"
+      },
+      "name": {
+        "value": "admin"
+      },
+      "localAdminName": {
+        "value": "adminuser"
+      },
+      "domainToJoin": {
+        "value": ""
+      },
+      "domainUserName": {
+        "value": ""
+      },
+      "ouPath": {
+        "value": ""
+      },
+      "tags": {
+        "value": {
+          "Ambiente": "Azure Virtual Desktop",
+          "Join-Type": "AAD"
+        }
+      },
+      "aadJoin": {
+        "value": true
+      },
+      "maxSessionLimit": {
+        "value": 10
+      },
+      "vmSize": {
+        "value": "Standard_B2ms"
+      },
+      "vmCount": {
+        "value": 2
+      },
+      "vmLicenseType": {
+        "value": "Windows_Client"
+      }
+    }
+  }

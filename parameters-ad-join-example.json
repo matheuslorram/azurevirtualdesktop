@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "subName": {
+        "value": "sn-tech-avd"
+      },
+      "hostPoolType": {
+        "value": "Pooled"
+      },
+      "name": {
+        "value": "financeiro"
+      },
+      "location": {
+        "value": "eastus"
+      },
+      "localAdminName": {
+        "value": "adminuser"
+      },
+      "domainUserName": {
+        "value": "adm.mld"
+      },
+      "tags": {
+        "value": {
+          "Ambiente": "Azure Azure Virtual Desktop",
+          "Join-Type": "AD"
+        }
+      },
+      "aadJoin": {
+        "value": false
+      },
+      "maxSessionLimit": {
+        "value": 10
+      },
+      "vmSize": {
+        "value": "Standard_B2ms"
+      },
+      "vmCount": {
+        "value": 2
+      },
+      "vmLicenseType": {
+        "value": "Windows_Client"
+      },
+      "domainToJoin": {
+        "value": "technosit.com.br"
+      },
+      "ouPath": {
+        "value": "OU=AzureVirtualDesktop,OU=Technosit,DC=technosit,DC=com,DC=br"
+      }
+    }
+  }
